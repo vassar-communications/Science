@@ -790,3 +790,50 @@ $u-NavSite__level--borderColor: 1px solid tint($bronze, 60%);
 	@include v-pixel-fallback("font-size", 1rem);
 }
 /* end main module styles */
+
+html.is-alert{padding:0}html.is-alert .u-lHeader{position:relative}html.is-alert .u-lFooter{bottom:0;position:relative}.u-pageHome.is-alert body{margin-top:0}
+html
+{
+    padding-top: 4em;
+}
+
+.u-pageHome .u-lMain
+{
+    padding-top: 60%;
+}
+
+.u-pageInner .u-lMain
+{
+    padding-top: 7em;
+}
+
+.u-Masthead__siteName
+{
+    margin-top: 0;
+}
+
+.u-lFooter
+{
+    bottom:0 !important;
+    position: relative;
+}
+
+.u-pageHome body
+{
+    margin-top:0
+}
+
+@media (min-width: 37.5em)
+{
+    .u-pageHome .u-lMain,
+    .u-pageHome .u-NavSite
+    {
+        margin-top: 42%;
+        padding-top: 6em;
+    }
+    
+    .u-lMain, .u-NavSite
+    {
+        padding-top: 8em;
+    }    
+}
